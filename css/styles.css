@@ -70,16 +70,19 @@ color: #404BBF;
   color: #404bbf;
 } 
 
-/**-------------------------BTN --------------------------*/
-.btn-info-section {
+/**-------------------------BTN portfolio--------------------------*/
+.btn-info-portfolio {
   background-color #2e2f42 ;
+}
+.photos-text-portfolio{
+
 }
 .text-btn-info{
    
 }
 .btn-list {
 }
-.btn-photo-links {
+.btn-portfol-links {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -89,10 +92,10 @@ color: #404BBF;
   background:  #4d5ae5;
   cursor: pointer;
 }
-.btn-photo-links:is(:hover, :focus) {
+.btn-portfol-links:is(:hover, :focus) {
   background: #404bbf;
 }
-.btn-photo-link {
+.btn-portfol-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -102,23 +105,118 @@ color: #404BBF;
   background: #F4F4FD;
   cursor: pointer;
 }
-/**-----------------------PHOTO WITH TEXT --------------------------*/
+/**-----------------------PHOTO WITH TEXT Portfolio--------------------------*/
 
-.img-link {
+.img-portfol-link {
 }
-.photo-text-item {
+.portfol-text-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.title-photos-parag {
+.title-portfol-parag {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+}
+
+/**------------------------Efective --------------------------*/
+.hero-section-web {
+  background: #2e2f42;
+}
+.text-hero-web {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.btn-hero-web {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.btn-hero-web:is(:hover, :focus) {
+  background: #404bbf;
+}
+
+/**------------------------section information--------------------------*/
+.features-web-section {
+}
+.text-web-features {
+}
+.features-list-web {
+}
+.link-info-web {
+}
+.text-web-info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.title-web-parag {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**-------------------section  what are we doing-------------------------*/
+.web-what-doing {
+}
+.photo-doing-web {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  list-style: none;
+}
+/**----------------------section our team ----------------------*/
+
+.about-webs-section {
+}
+.webs-text-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  list-style: none;
+}
+
+.webst-team-list {
+}
+.webst-link-team {
+}
+.people-web-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.title-webs-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /**----------------FOOTER-----------------------*/
