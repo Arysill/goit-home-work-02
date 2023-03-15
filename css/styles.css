@@ -147,7 +147,7 @@ color: #404BBF;
   cursor: pointer;
 }
 .btn-hero-web:is(:hover, :focus) {
-  background: #404bbf;
+  background: #404BBF;
 }
 
 /**------------------------section information--------------------------*/
@@ -156,6 +156,7 @@ color: #404BBF;
 .text-web-features {
 }
 .features-list-web {
+   list-style: none ;
 }
 .link-info-web {
 }
@@ -189,7 +190,7 @@ color: #404BBF;
 /**----------------------section our team ----------------------*/
 
 .about-webs-section {
-}
+background: #f4f4fd;}
 .webs-text-team {
   font-weight: 700;
   font-size: 36px;
@@ -202,8 +203,10 @@ color: #404BBF;
 }
 
 .webst-team-list {
+ 
 }
 .webst-link-team {
+   background: #ffffff;
 }
 .people-web-team {
   font-weight: 500;
