@@ -32,7 +32,8 @@ body {
 
 }
 
-.header-list {
+.header-adress-list {
+  font-style: normal;
 }
  .header-text{
    font-weight: 500;
@@ -52,13 +53,13 @@ color: #404BBF;
 }
 
 .header-address-list {
- font-style: normal;
+
 }
 .visit-list {
-  font-style: normal;
+
 }
 .contact-link {
-   font-style: normal;
+ 
 }
 
 .header-adress {
@@ -84,29 +85,24 @@ color: #404BBF;
 }
 .btn-list {
 }
-.btn-portfol-links {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color:#ffff ;
-  background:  #4d5ae5;
-  cursor: pointer;
-}
-.btn-portfol-links:is(:hover, :focus) {
-  background: #404bbf;
-}
 .btn-portfol-link {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:#4D5AE5 ;
-  background: #F4F4FD;
+  align-items: center;
+  text-align: center;
+ color: #4d5ae5;
+ background: #f4f4fd;
   cursor: pointer;
 }
+.btn-portfol-link:active{
+background: #404bbf;
+color: #ffffff;
+}
+
 /**-----------------------PHOTO WITH TEXT Portfolio--------------------------*/
 
 .img-portfol-link {
