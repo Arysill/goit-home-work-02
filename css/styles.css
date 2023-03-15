@@ -85,24 +85,29 @@ color: #404BBF;
 }
 .btn-list {
 }
-.btn-portfol-link {
+.btn-portfol-links {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  align-items: center;
-  text-align: center;
- color: #4d5ae5;
- background: #f4f4fd;
+  color:#ffff ;
+  background:  #4d5ae5;
   cursor: pointer;
 }
-.btn-portfol-link:active{
-background: #404bbf;
-color: #ffffff;
+.btn-portfol-links:is(:hover, :focus) {
+  background: #404bbf;
 }
-
+.btn-portfol-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color:#4D5AE5 ;
+  background: #F4F4FD;
+  cursor: pointer;
+}
 /**-----------------------PHOTO WITH TEXT Portfolio--------------------------*/
 
 .img-portfol-link {
