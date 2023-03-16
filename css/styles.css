@@ -4,11 +4,11 @@
   --second-btn-color: #404bbf;
 }
 
-.web-site {
+body {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
-.portfolio {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
@@ -92,6 +92,7 @@
 }
 .btn-portfol-links {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -100,6 +101,10 @@
   background: #f4f4fd;
   cursor: pointer;
 }
+.btn-portfol-link:is(:hover, :focus) {
+  color: #ffffff;
+}
+
 .btn-portfol-links:is(:hover, :focus) {
   background: var(--second-btn-color);
 }
@@ -122,6 +127,8 @@
   background-color: #f4f4fd;
 }
 .portfol-text-item {
+  font-family: "Roboo";
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -129,11 +136,13 @@
   color: var(--title-main-color);
 }
 .title-portfol-parag {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
 }
 
 /**------------Header Web-site--------------------*/
