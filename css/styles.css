@@ -13,7 +13,7 @@ body {
 .header {
 }
 .header-logo {
-   font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -22,44 +22,41 @@ body {
   color: #2e2f42;
 }
 .header-logo-web {
-   font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
 }
 
 .header-adress-list {
   font-style: normal;
 }
- .header-text{
-   font-weight: 500;
+
+.header-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
- }
- .header-text:is(:hover, :focus){
+}
+.header-text:is(:hover, :focus) {
   color: #404bbf;
- }
+}
 .header-link {
 }
 
-.header-link:is(:hover, :focus){
-color: #404BBF;
+.header-link:is(:hover, :focus) {
+  color: #404bbf;
 }
 
 .header-address-list {
-
 }
 .visit-list {
-
 }
 .contact-link {
- 
 }
 
 .header-adress {
@@ -71,17 +68,15 @@ color: #404BBF;
 }
 .header-adress:is(:hover, :focus) {
   color: #404bbf;
-} 
+}
 
 /**-------------------------BTN portfolio--------------------------*/
 .btn-info-portfolio {
-  background-color #2e2f42 ;
+  background-color: #2e2f42;
 }
-.photos-text-portfolio{
-
+.photos-text-portfolio {
 }
-.text-btn-info{
-   
+.text-btn-info {
 }
 .btn-list {
 }
@@ -91,8 +86,8 @@ color: #404BBF;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:#ffff ;
-  background:  #4d5ae5;
+  color: #ffff;
+  background: #4d5ae5;
   cursor: pointer;
 }
 .btn-portfol-links:is(:hover, :focus) {
@@ -104,8 +99,8 @@ color: #404BBF;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:#4D5AE5 ;
-  background: #F4F4FD;
+  color: #4d5ae5;
+  background: #f4f4fd;
   cursor: pointer;
 }
 /**-----------------------PHOTO WITH TEXT Portfolio--------------------------*/
@@ -114,7 +109,7 @@ color: #404BBF;
 }
 .portfolio-card {
   color: #4d5ae5;
-  background-color:#F4F4FD;
+  background-color: #f4f4fd;
 }
 .portfol-text-item {
   font-weight: 500;
@@ -154,7 +149,7 @@ color: #404BBF;
   cursor: pointer;
 }
 .btn-hero-web:is(:hover, :focus) {
-  background: #404BBF;
+  background: #404bbf;
 }
 
 /**------------------------section information--------------------------*/
@@ -163,7 +158,7 @@ color: #404BBF;
 .text-web-features {
 }
 .features-list-web {
-   list-style: none ;
+  list-style: none;
 }
 .link-info-web {
 }
@@ -197,7 +192,8 @@ color: #404BBF;
 /**----------------------section our team ----------------------*/
 
 .about-webs-section {
-background: #f4f4fd;}
+  background: #f4f4fd;
+}
 .webs-text-team {
   font-weight: 700;
   font-size: 36px;
@@ -210,10 +206,9 @@ background: #f4f4fd;}
 }
 
 .webst-team-list {
- 
 }
 .webst-link-team {
-   background: #ffffff;
+  background: #ffffff;
 }
 .people-web-team {
   font-weight: 500;
@@ -239,18 +234,17 @@ background: #f4f4fd;}
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-   text-transform: uppercase;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer-logo-web{
+.footer-logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
-
+  color: #4d5ae5;
 }
 
 .footer-title {
