@@ -102,6 +102,8 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  cursor: pointer;
+  background: #f4f4fd;
 }
 .btn-portfol-link:is(:hover, :focus) {
   color: #ffffff;
