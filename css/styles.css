@@ -4,9 +4,13 @@
   --second-btn-color: #404bbf;
 }
 
-body {
+.web-site {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+}
+.portfolio {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 .link {
@@ -132,6 +136,65 @@ body {
   text-decoration: none;
 }
 
+/**------------Header Web-site--------------------*/
+.header-web {
+}
+.headerw-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-main-color);
+}
+.header-logo-webw {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.headerw-adress-list {
+  font-style: normal;
+}
+
+.headerw-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-main-color);
+}
+.headerw-text:is(:hover, :focus) {
+  color: #404bbf;
+}
+.headerw-link {
+}
+
+.headerw-link {
+}
+
+.header-address-list {
+}
+.visit-list {
+}
+.contact-link {
+}
+
+.header-adress {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-adress:is(:hover, :focus) {
+  color: #404bbf;
+}
 /**------------------------Efective --------------------------*/
 .hero-section-web {
   background: var(--title-main-color);
