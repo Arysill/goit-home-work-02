@@ -117,7 +117,7 @@ address {
   background-color: #f4f4fd;
 }
 .portfol-text-item {
-  font-family: "Roboo";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -126,9 +126,6 @@ address {
   color: var(--title-main-color);
 }
 .title-portfol-parag {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
